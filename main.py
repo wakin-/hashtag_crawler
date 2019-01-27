@@ -52,7 +52,7 @@ def get_search(url):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print('Useage: main.py <hashtag>')
+        print('Useage: python main.py <hashtag>')
         exit()
 
     hashtag = sys.argv[1]
